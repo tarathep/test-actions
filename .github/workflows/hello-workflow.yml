@@ -1,7 +1,6 @@
 name: hello
 
-on: 
-  workflow_dispatch:
+on: [push]
 
 jobs:
   hello_world_job:
